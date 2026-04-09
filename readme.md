@@ -54,5 +54,16 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
 - 🌐 GitHub: https://github.com/Vinhdev04
 
 ---
-
+## Overview
+- **Được phát triển bởi Microsoft**
+- **Typescript = Javascript + Type**
+- **Browers** -> ko thê hiểu TypeScript
+- `Typescript -> TypeScript Compiler -> Javascript`
+- Typescript sử dụng cú pháp của Javascript và bổ sung thêm các cú pháp mới để hỗ trợ "Types" (Các kiểu dữ liệu)
+- Kiến thức về JS đều có thể áp dung trong JS
+- **Tại sao nên sử dụng typeScript**:
+  - Ép kiểu dữ liệu chặt chẽ hơn (giảm sự freedom so với javascript)
+  - Sử dụng Type để định nghĩa dữ liệu, tương tự java, C#
+  - Giúp hạn chế bugs, đặc biệt trong các dự án có khối codebase (dòng code) lớn
+---
 > Đây là bộ tài liệu mô tả chi tiết cho series tự học TypeScript, dành cho người mới bắt đầu và cả lập trình viên muốn nâng cao kỹ năng.
