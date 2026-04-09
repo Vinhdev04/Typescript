@@ -66,4 +66,31 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
   - Sử dụng Type để định nghĩa dữ liệu, tương tự java, C#
   - Giúp hạn chế bugs, đặc biệt trong các dự án có khối codebase (dòng code) lớn
 ---
+
+## Setup TypeScript
+```
+	npm i -g typescript@version ts.node@version
+	npm install -g typescript
+```
+- `Tự động theo dõi file (Watch Mode):` Thay vì mỗi lần sửa code xong bạn phải gõ lại lệnh tsc file-name một cách thủ công, bạn có thể chạy lệnh tsc file-name --watch (hoặc -w) -> TypeScript compiler sẽ chạy ngầm; cứ mỗi khi bạn nhấn Save (Ctrl+S) file .ts, nó sẽ lập tức tự động biên dịch sang file .js mới nhất.
+- ``File tsconfig.json:`` Khi làm việc với dự án thật, người ta không chạy lệnh tsc cho từng file đơn lẻ. Bạn sẽ khởi tạo một file cấu hình bằng lệnh `tsc --init`
+- `Thực thi file TS trực tiếp bằng ts-node:` Nếu bạn chỉ muốn chạy thử thuật toán và xem log ra màn hình console mà không muốn sinh ra file .js rác, bạn có thể cài thêm thư viện ts-node (bằng lệnh `npm i -g ts-node`)
+- `tsc không phải là lệnh để "chạy" code, nó là lệnh để "dịch" code.`
+- `đôi khi chạy lệnh tsc <tên_file> nó vẫn không áp dụng cấu hình đó` -> **Khi chỉ định tên file cụ thể, TSC sẽ bỏ qua file cấu hình chung**
+---
+
+## tsconfig.json
+- Chỉ cần chỉ định các cấu hình trong file `tsconfig.json`
+```
+    {
+        "compilerOptions": {
+            "pretty": true,
+            "removeComments": true,    /* Giúp file .js sạch sẽ, không chứa ghi chú từ file .ts */
+            "target": "ES6",           /* Dịch ra phiên bản JavaScript hiện đại hơn */
+            "noImplicitAny": true ,     /* Ép bạn phải rõ ràng về kiểu dữ liệu, giúp code an toàn hơn */
+            "noEmitOnError": true // TypeScript sẽ không tạo ra file JavaScript nếu code vẫn còn lỗi
+        }
+    }
+```
+---
 > Đây là bộ tài liệu mô tả chi tiết cho series tự học TypeScript, dành cho người mới bắt đầu và cả lập trình viên muốn nâng cao kỹ năng.
