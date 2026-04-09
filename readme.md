@@ -1,4 +1,11 @@
 # Series Tự Học TypeScript
+![TypeScript Logo](./Sources/Images/typescript-logo.svg)
+
+TypeScript là **JavaScript + kiểu dữ liệu tĩnh (static typing)**. Bạn vẫn viết JS như bình thường, nhưng TS giúp:
+
+- Bắt lỗi sớm ngay khi code (IDE / compile-time)
+- Tự động gợi ý tốt hơn (autocomplete, refactor, go to definition)
+- Dễ bảo trì khi project lớn (hợp đồng type rõ ràng)
 
 ## Giới thiệu
 

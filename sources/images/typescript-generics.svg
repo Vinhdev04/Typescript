@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Generics diagram">
+  <defs>
+    <style>
+      .bg { fill: #0b1020; }
+      .card { fill: #0f172a; stroke: #334155; stroke-width: 2; }
+      .txt { fill: #e2e8f0; font-family: Segoe UI, Arial, sans-serif; }
+      .muted { fill: #94a3b8; font-family: Segoe UI, Arial, sans-serif; }
+      .accent { fill: #60a5fa; font-family: Segoe UI, Arial, sans-serif; font-weight: 700; }
+      .code { fill: #22c55e; font-family: Consolas, ui-monospace, SFMono-Regular, Menlo, Monaco, monospace; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#94a3b8" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1000" height="360"/>
+
+  <rect class="card" x="60" y="70" width="380" height="220" rx="14"/>
+  <text class="accent" x="90" y="115" font-size="22">Generic function</text>
+  <text class="code" x="90" y="155" font-size="18">identity&lt;T&gt;(value: T): T</text>
+  <text class="muted" x="90" y="190" font-size="16">T là “placeholder” cho kiểu</text>
+  <text class="muted" x="90" y="215" font-size="16">TS suy ra T khi bạn truyền vào</text>
+
+  <rect class="card" x="520" y="70" width="420" height="90" rx="14"/>
+  <text class="txt" x="550" y="120" font-size="18">identity(123)</text>
+  <text class="muted" x="550" y="145" font-size="16">T = number → return number</text>
+
+  <rect class="card" x="520" y="200" width="420" height="90" rx="14"/>
+  <text class="txt" x="550" y="250" font-size="18">identity("hi")</text>
+  <text class="muted" x="550" y="275" font-size="16">T = string → return string</text>
+
+  <line x1="440" y1="160" x2="520" y2="115" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="440" y1="200" x2="520" y2="245" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>
+
