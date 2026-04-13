@@ -107,6 +107,26 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
 
 ---
 ## Variables
-- 
+- **any**: Chấp nhận mọi kiểu dữ liệu (hạn chế dùng) -> Rất dễ gây lỗi runtime.
+- **unknown**: Giống any nhưng an toàn hơn 
+  - (bạn phải kiểm tra kiểu trước khi thực hiện các phép toán)
+- **void**: Dùng cho hàm không trả về giá trị
+---
+
+# Type inference vs Type Annotation
+- Type inference: TypeScript tự dự đoán kiểu dữ liệu bằng thuật toán Type Inference (Suy luận kiểu) kết hợp với Semantic Analysis (Phân tích ngữ nghĩa)
+- Type Annotation: Khi khai báo biến, ko thể thay đổi kiểu dữ liệu (static type)
+---
+
+# Vậy khi nào sử dụng Type Annotation
+- Khai báo 1 biến và gán giá trị cho nó ngay sau đó
+- Khai báo 1 biến => ép kiểu (ko muốn được gán tự động)
+- Muốn ép kiểu trả về dữ liệu mong muốn
+---
+
+## Nên viết hoa hay thường khi định nghĩa **type**
+- Kiểu có sẵn (Primitive) -> viết thường
+- Kiểu tự định nghĩa -> viết hoa chữ cái đầu
+- Kiểu Biến/ Hằng số -> quy tắc camelCase
 ---
 > Đây là bộ tài liệu mô tả chi tiết cho series tự học TypeScript, dành cho người mới bắt đầu và cả lập trình viên muốn nâng cao kỹ năng.
