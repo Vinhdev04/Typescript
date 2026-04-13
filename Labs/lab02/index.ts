@@ -27,8 +27,5 @@ function displayArea(area:number):void{
 }
 
 
-
 const re = displayArea(result);
 console.log(re); // undefined
-
-

@@ -100,4 +100,8 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
 - functioṇ():number,... -> Bạn ép buộc hàm phải trả về kiểu dữ liệu mong muốn
 - function() -> TypeScript tự nhìn vào lệnh return để đoán kiểu trả về.
 ---
+
+## Variables
+- 
+---
 > Đây là bộ tài liệu mô tả chi tiết cho series tự học TypeScript, dành cho người mới bắt đầu và cả lập trình viên muốn nâng cao kỹ năng.
