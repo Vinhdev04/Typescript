@@ -100,7 +100,12 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
 - functioṇ():number,... -> Bạn ép buộc hàm phải trả về kiểu dữ liệu mong muốn
 - function() -> TypeScript tự nhìn vào lệnh return để đoán kiểu trả về.
 ---
+# Type Anotations - Keyword Type
 
+- Typescript sử dụng cú pháp:
+  - **:type**: sau khi định nghĩa biến, ko thể thay đổi kiểu dữ liệu (static type)
+
+---
 ## Variables
 - 
 ---

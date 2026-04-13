@@ -5,3 +5,6 @@ const sum = (a:number, b:number):number =>{
 console.log(sum(5,10)); // 15
 // Error: Argument of type 'string' is not assignable to parameter of type 'number'.
 // console.log(sum(5,'10'));
+
+const arr: string[] = ['a','b','c'];
+console.log(arr);
