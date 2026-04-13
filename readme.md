@@ -129,4 +129,7 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
 - Kiểu tự định nghĩa -> viết hoa chữ cái đầu
 - Kiểu Biến/ Hằng số -> quy tắc camelCase
 ---
+
+
+---
 > Đây là bộ tài liệu mô tả chi tiết cho series tự học TypeScript, dành cho người mới bắt đầu và cả lập trình viên muốn nâng cao kỹ năng.
