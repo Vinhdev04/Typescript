@@ -130,6 +130,13 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
 - Kiểu Biến/ Hằng số -> quy tắc camelCase
 ---
 
+## any vs unknown
+- `any` là kiểu dữ liệu linh hoạt nhất
+- khi sử dụng `any` -> yêu cầu `ts` ko kiểm tra như đang viết `js`
+- có thể gán bất kỳ giá trị nào, gọi bất kỳ phương thức nào
+- hạn chế sử dụng tránh sinh `bug`
 
----
+- `unknown` cho phép bất kỳ giá trị nào, an toàn hơn `any`
+- `ts` sẻ ko thực thi tính toán nếu `ko chứng minh` được kiểu dữ liệu thực sự
+- luôn sử dụng `Type Checking` như `typeof` trước khi sử dụng
 > Đây là bộ tài liệu mô tả chi tiết cho series tự học TypeScript, dành cho người mới bắt đầu và cả lập trình viên muốn nâng cao kỹ năng.
