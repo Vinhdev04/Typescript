@@ -28,6 +28,6 @@ const processInputAny = (input: any) => {
     console.log(input.toUpperCase()); 
 }
 
-processInputAny(10); 
-// TS: ✅ Im lặng (không báo lỗi lúc code)
-// Runtime: 🔴 Sập! (Error: input.toUpperCase is not a function)
+// processInputAny(10); 
+// TS: ✔ Im lặng (không báo lỗi lúc code)
+// Runtime: ✔ Sập! (Error: input.toUpperCase is not a function)

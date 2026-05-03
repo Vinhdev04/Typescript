@@ -139,4 +139,9 @@ TypeScript là một ngôn ngữ lập trình siêu tập hợp của JavaScript
 - `unknown` cho phép bất kỳ giá trị nào, an toàn hơn `any`
 - `ts` sẻ ko thực thi tính toán nếu `ko chứng minh` được kiểu dữ liệu thực sự
 - luôn sử dụng `Type Checking` như `typeof` trước khi sử dụng
+---
+
+## Function in TypeScript
+- ****
+---
 > Đây là bộ tài liệu mô tả chi tiết cho series tự học TypeScript, dành cho người mới bắt đầu và cả lập trình viên muốn nâng cao kỹ năng.
